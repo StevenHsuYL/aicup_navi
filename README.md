@@ -33,15 +33,19 @@ Generative-AI Navigation Information Competition
 
 * 標註影像 (label image) 前處理：將訓練資料集中的 label image，由四個白色邊界所構成的標註資料，轉換為內部填滿白色的標註方式，以提升訓練成效。處理結果會儲存於 `/content/Training_dataset/label_img_new/`。
 
-  執行結果如下（轉換前 -> 轉換後）
+  執行結果如下。
   
-  ![GT_TRA_RI_2000001](https://github.com/StevenHsuYL/aicup_navi/assets/81967953/1678acb7-c956-4a9f-ae9a-91baf492eea3) -> ![GTNEW_TRA_RI_2000001](https://github.com/StevenHsuYL/aicup_navi/assets/81967953/1b6cf3d5-c74a-498f-a239-8dab15acb51c)
+  轉換前： ![GT_TRA_RI_2000001](https://github.com/StevenHsuYL/aicup_navi/assets/81967953/1678acb7-c956-4a9f-ae9a-91baf492eea3)
+  
+  轉換後： ![GTNEW_TRA_RI_2000001](https://github.com/StevenHsuYL/aicup_navi/assets/81967953/1b6cf3d5-c74a-498f-a239-8dab15acb51c)
   
 * 輸入影像 (input image) 前處理：將訓練資料集中的 input image，以傳統方法大致提取河流及道路的特徵，並標註於輸入影像中，以提升訓練成效。處理結果會儲存於 `/content/Training_dataset/img_new/`。
+  
+  執行結果如下。
 
-  執行結果如下（轉換前 -> 轉換後）：
-
-  ![IMG_TRA_RI_2000001](https://github.com/StevenHsuYL/aicup_navi/assets/81967953/d434291f-9cbd-4f46-9635-a785fb0094f4) -> ![IMGNEW_TRA_RI_2000001](https://github.com/StevenHsuYL/aicup_navi/assets/81967953/51550381-49e7-4985-8025-27733b38e12d)
+  轉換前： ![IMG_TRA_RI_2000001](https://github.com/StevenHsuYL/aicup_navi/assets/81967953/d434291f-9cbd-4f46-9635-a785fb0094f4)
+  
+  轉換後： ![IMGNEW_TRA_RI_2000001](https://github.com/StevenHsuYL/aicup_navi/assets/81967953/51550381-49e7-4985-8025-27733b38e12d)
 
 * 前處理完成後，執行第三個 code cell 確認處理後的影像數量（輸出 4321 表示數量正確）。
   ```
