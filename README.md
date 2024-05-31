@@ -100,7 +100,7 @@ Generative-AI Navigation Information Competition
 
   `category = '_RO'`
 
-### 7. 輸出測試結果
+### 7. 輸出推論結果
 * 如果測試集中兩種類型（河流及道路）的影像資料都已經推論完成，即可執行最後一個 code cell，將推論結果輸出。
 * 檔案壓縮前須確認輸出影像數量和輸入影像數量相同。
   ```
