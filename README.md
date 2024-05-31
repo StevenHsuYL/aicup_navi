@@ -101,7 +101,7 @@ Generative-AI Navigation Information Competition
 
 ## 作者
 
-TEAM_5447 / **Khóo Hō-Sûn**
+TEAM_5447 / **Khóo Hō-sûn**
 
 ## License
 
