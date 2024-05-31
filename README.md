@@ -81,7 +81,7 @@ Generative-AI Navigation Information Competition
 * 河流資料的模型權重會儲存於 `'/content/models_RI/best_model.pth'`。
 
 ### 6. 模型推論 (inference)
-* 下載測試資料集，並對輸入影像進行前處理。處理結果會儲存於 `/content/ts/img_new/`
+* 下載測試資料集，並對輸入影像進行前處理。處理結果會儲存於 `/content/ts/img_new/`。
 * 以下執行順序很重要，正確執行完才能得到測試資料的推論結果：
   * 先設定 `Test = False`，使用 validation set 來尋找最理想的後處理 (post-processing) 參數：
   * 載入訓練權重，並對 validation set 執行 block mask prediction。
